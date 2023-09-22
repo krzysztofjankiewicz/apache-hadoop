@@ -15,6 +15,7 @@ docker-compose up -d
 
 # Accessing the UI
 
-The Namenode UI can be accessed at http://localhost:9870/ and the ResourceManager UI can be accessed at http://localhost:8088/
+* The Namenode UI can be accessed at http://localhost:9870/
+* The ResourceManager UI can be accessed at http://localhost:8088/
 
 
