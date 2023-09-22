@@ -2,8 +2,8 @@
 Based on https://hub.docker.com/r/apache/hadoop
 
 # Details 
-single NameNode and ResourceManager
-two replicas of DataNodes and NodeManagers 
+- single NameNode and ResourceManager
+- two replicas of DataNodes and NodeManagers 
 
 # Run the docker containers
 docker-compose up -d
