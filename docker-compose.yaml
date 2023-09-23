@@ -30,6 +30,8 @@ services:
    nodemanager:
       image: apache/hadoop:3.3.6
       command: ["yarn", "nodemanager"]
+      ports:
+        - "8042"
       env_file:
         - ./config
       deploy:
