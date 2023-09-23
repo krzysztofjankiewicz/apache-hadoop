@@ -10,7 +10,7 @@ services:
         - ./config
       environment:
           ENSURE_NAMENODE_DIR: "/tmp/hadoop-root/dfs/name"
-   datanode1:
+   datanode:
       image: apache/hadoop:3.3.6
       command: ["hdfs", "datanode"]
       env_file:
